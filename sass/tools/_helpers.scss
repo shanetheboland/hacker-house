@@ -1,0 +1,142 @@
+/* ==========================================================================
+   HELPERS
+   ========================================================================== */
+
+//Background Colors
+
+   .black-bg {
+    background: $black;
+   }
+
+   .darkgray-bg {
+    background: $darkgray;
+   }
+
+   .gray-bg {
+    background: $gray;
+   }
+
+   .lightgray-bg {
+    background: $lightgray;
+   }
+
+   .white-bg {
+    background: $white;
+   }
+
+   .primary-bg {
+    background: $primary;
+   }
+
+   .accent-bg {
+    background: $accent;
+   }
+
+   .gradient-right-bg {
+    background: -webkit-linear-gradient(90deg, $lightgray 10%, $white 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, $lightgray 10%, $white 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, $lightgray 10%, $white 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, $lightgray 10%, $white 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, $lightgray 10%, $white 90%); /* W3C */  
+   }
+   .gradient-left-bg {
+    background: -webkit-linear-gradient(270deg, $lightgray 10%, $white 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(270deg, $lightgray 10%, $white 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(270deg, $lightgray 10%, $white 90%); /* IE10 */
+    background:      -o-linear-gradient(270deg, $lightgray 10%, $white 90%); /* Opera 11.10+ */
+    background:         linear-gradient(270deg, $lightgray 10%, $white 90%); /* W3C */  
+   }
+
+//Text Colors
+
+    .black-text {
+        color: $black;
+    }
+
+    .darkgray-text {
+        color: $darkgray;
+    }
+
+    .gray-text {
+        color: $gray;
+    }
+
+    .lightgray-text {
+        color: $lightgray;
+    }
+
+    .white-text {
+        color: $white;
+    }
+
+    .primary-text {
+        color: $primary !important;
+    }
+
+    .accent-text {
+        color: $accent;
+    }
+
+  //Overflow
+
+    .overflow-hidden {
+      overflow: hidden;
+    }
+
+  //Floats
+    .float-left {
+      float:left;
+    }
+    .float-right {
+      float:right;
+    }
+
+  //Borders
+    .no-borders {
+      border: 0 !important;
+    }
+
+    .border-left {
+      border-left: 2px solid #ecbb2a;
+    }
+
+    .border-right {
+      border-right: 2px solid #ecbb2a;
+    }
+
+
+  //Shadows
+    .box-shadow {
+      box-shadow: 3px 3px 3px rgba(34, 34, 34, 0.6);
+    }
+    .small-box-shadow {
+      box-shadow: 1px 1px 1px rgba(34, 34, 34, 0.6);
+    }
+    .text-shadow {
+      text-shadow: 3px 3px 3px rgba(34, 34, 34, 0.6);
+    }
+
+    .small-text-shadow {
+      text-shadow: 1px 1px 1px rgba(34, 34, 34, 0.4);
+    }
+
+  //Margins
+    .margin-t-sm {
+      margin-top: $spacing-unit;
+    }
+    .margin-r-sm {
+      margin-right: $spacing-unit;
+    }
+    .margin-b-sm {
+      margin-bottom: $spacing-unit;
+    }
+    .margin-l-sm {
+      margin-left: $spacing-unit;
+    }
+
+
+    .hide-text {
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }

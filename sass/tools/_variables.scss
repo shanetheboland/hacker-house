@@ -1,0 +1,43 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+// Fonts
+$body-font: 'Cabin', Helvetica, Arial, sans-serif;
+$header-font: 'Arvo', Georgia, serif;
+$small-font: $body-font;
+
+// Black & White
+$black:  #222;
+$white:  #FFFFFF;
+
+//Gray
+$gray:   #828282;
+$lightgray: lighten($gray, 40%);
+$darkgray: darken($gray, 25%);
+
+//Colors
+$primary: #ecbb2a;
+$accent: #0074D9;
+
+// Colors
+$yellow: #ecbb2a;
+$blue: 	 #0074D9;
+$red: #fff000;
+
+$header-color: #fff;
+// Color Aliases
+$background-color: $white;
+$primary-color:    $red;
+$secondary-color:  $blue;
+$text-color:       $black;
+$link-color:       $blue;
+
+
+// Spacing
+$spacing-unit:    30px;
+$lg-spacing-unit: $spacing-unit * 2; //60px
+$content-width: $spacing-unit * 20; //600px
+
+// Borders
+$border-radius: 4px;
+$border-width: 2px;

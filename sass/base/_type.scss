@@ -1,0 +1,122 @@
+/* ==========================================================================
+   TYPE
+
+   - Base
+   - Type Scale
+
+   ========================================================================== */
+
+/* Base
+   ========================================================================== */
+
+//establish vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure, hr {
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: $spacing-unit;
+    text-rendering: optimizeLegibility;
+}
+
+/* Type Scale (h1, h2, h3, p, small)
+   ========================================================================== */
+h1, .h1 {
+    font: normal 700 64px/1.4063 $header-font;
+}
+
+h2, .h2 {
+    font: normal 700 48px/1.25 $header-font;
+}
+
+h3, .h3 {
+    font: normal 400 32px/1.875 $header-font;
+}
+
+p, .p {
+    font: normal 300 20px/1.5 $body-font;
+}
+
+.huge {
+    font: normal 700 120px/1 $header-font;
+}
+.text-shadow {
+  text-shadow: 3px 3px 3px rgba($black, .6);
+}
+.small-text-shadow {
+  text-shadow: 1px 1px 1px rgba($black, .4);
+}
+.yellow-text {
+  color: $yellow;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+small, .small {
+    font: normal 400 14px/2.1429 $body-font;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+i, em {
+    font-style: italic;
+}
+
+/* Typographic Styles
+  =========================================================================== */
+hr {
+    background: $lightgray; 
+    clear: both; 
+    float: none; 
+    width: 100%; 
+    height: $border-width;
+    margin: 0 0 $spacing-unit;
+    border: none; 
+}
+
+/* Lists
+  =========================================================================== */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+.lightgray-text {
+  color: $lightgray;
+  // color: rgba($white,.8);
+}
+.white-text {
+  color: $white;
+}
+.header-font {
+  font-family: $header-font;
+}
+.body-font {
+  font-family: $body-font;
+}
+
+
+@media screen and (max-width:768px) {
+  h1, .h1 {
+      font: normal 700 48px/1.25 $header-font;
+  }
+
+  h2, .h2 {
+      font: normal 400 32px/1.875 $header-font;
+  }
+
+  h3, .h3 {
+    font: normal 700 24px/1.25 $body-font;
+  }
+
+  p, .p {
+      font: normal 400 20px/1.5 $body-font;
+  }
+  .huge {
+    font: normal 700 64px/1.4063 $header-font;
+  }
+}
